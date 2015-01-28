@@ -1,0 +1,17 @@
+[user]
+	name = Arnaud Piroelle
+	email = piroelle.arnaud@gmail.com
+
+[core]
+	autocrlf = input
+
+[color]
+	ui = true
+
+[push]
+	default = simple
+
+[alias]
+	co = checkout
+	lo = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --branches --decorate
+	unstage = reset HEAD --
