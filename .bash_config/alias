@@ -1,0 +1,4 @@
+alias mkdir='mkdir -pv'
+alias ls='ls -G'
+alias ll='ls -FlAhp'
+alias synchro='ssh batch@seed.legeektechno.fr ./synchronisation.sh'
